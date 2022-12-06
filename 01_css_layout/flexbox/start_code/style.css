@@ -9,10 +9,20 @@ ul {
 body>header {
     padding: 1rem;
     background: dodgerblue;
+    /*  */
+    display: flex;
+    /* makes title and nav seperate to either side of the page */
+    Justify-content: space-between;
+    /* moves childrens vertical position to the middle */
+    align-items: center;
 }
 
 header>nav>ul {
     padding: 0;
+    /* makes children <li> align next to each other */
+    display: flex;
+    /* makes the ul space out it's children */
+    gap: 1rem;
 }
 
 body>main {
@@ -22,6 +32,8 @@ body>main {
 #author {
     padding: 1rem;
     border: 2px dashed #eee;
+    display: flex;
+    gap: 1rem;
 }
 
 #author>img {
@@ -33,4 +45,14 @@ body>footer {
     background: dodgerblue;
 }
 
-#footer-container {}
+#footer-container{
+    display: flex;
+    /* gap: 1rem; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* #footer-container > div {
+    display: flex;
+    justify-content: space-evenly;
+} */
