@@ -2,7 +2,7 @@ body {
   /* Set the font-family for the entire body to Roboto with a generic family of sans-serif */
   /* Hint: https://developer.mozilla.org/en-US/docs/Web/CSS/font-family */
   /* font-family: "Roboto"; */
-  font-family: 'Papyrus';
+  font-family: 'Roboto';
 }
 
 header {
@@ -174,8 +174,8 @@ input {
   grid-template-areas: 
   'item item item'
   'item item item';
-  grid-template-columns: 30% 30% 30%;
-  gap: 1rem;*/
+  grid-template-columns: 30% 30% 30%; */
+    /* gap: 1rem; */
   /* justify-content: space-between; */
   
   /* The row of the grid has 3 columns which should be the same width and roughly a third of the available space */
@@ -211,6 +211,7 @@ img {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  border-radius: 5px;
 }
 
 .single-testmonial *{
